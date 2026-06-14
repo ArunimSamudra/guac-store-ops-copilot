@@ -1,0 +1,174 @@
+[
+  {
+    "product_id": "P001",
+    "product_name": "Rotisserie Chicken",
+    "department": "Deli",
+    "time_window": "11:00-11:30",
+    "current_prepared_qty": 9,
+    "forecasted_demand": 6,
+    "recommended_production_qty": 0,
+    "prep_time_minutes": 90,
+    "ingredient_constraints": [],
+    "status": "sufficient",
+    "notes": "Promo ending — hold production, risk of waste"
+  },
+  {
+    "product_id": "P001",
+    "product_name": "Rotisserie Chicken",
+    "department": "Deli",
+    "time_window": "12:00-12:30",
+    "current_prepared_qty": 9,
+    "forecasted_demand": 8,
+    "recommended_production_qty": 6,
+    "prep_time_minutes": 90,
+    "ingredient_constraints": [],
+    "status": "sufficient",
+    "notes": "Peak lunch window. Produce standard batch only if sell-through > 5 by 10:30."
+  },
+  {
+    "product_id": "P002",
+    "product_name": "Atlantic Salmon Fillet",
+    "department": "Seafood",
+    "time_window": "11:00-11:30",
+    "current_prepared_qty": 10,
+    "forecasted_demand": 6,
+    "recommended_production_qty": 0,
+    "prep_time_minutes": 15,
+    "ingredient_constraints": [],
+    "status": "sufficient",
+    "notes": "Rain forecast reducing dinner demand. Current stock sufficient."
+  },
+  {
+    "product_id": "P002",
+    "product_name": "Atlantic Salmon Fillet",
+    "department": "Seafood",
+    "time_window": "14:00-14:30",
+    "current_prepared_qty": 10,
+    "forecasted_demand": 8,
+    "recommended_production_qty": 4,
+    "prep_time_minutes": 15,
+    "ingredient_constraints": [],
+    "status": "reduced",
+    "notes": "Afternoon prep reduced vs standard due to rain forecast."
+  },
+  {
+    "product_id": "P003",
+    "product_name": "Sourdough Loaf",
+    "department": "Bakery",
+    "time_window": "10:00-10:30",
+    "current_prepared_qty": 6,
+    "forecasted_demand": 20,
+    "recommended_production_qty": 12,
+    "prep_time_minutes": 90,
+    "ingredient_constraints": [],
+    "status": "elevated",
+    "notes": "School half-day boosting lunch traffic. Start now — 90 min bake before lunch rush."
+  },
+  {
+    "product_id": "P003",
+    "product_name": "Sourdough Loaf",
+    "department": "Bakery",
+    "time_window": "12:00-12:30",
+    "current_prepared_qty": 6,
+    "forecasted_demand": 15,
+    "recommended_production_qty": 8,
+    "prep_time_minutes": 90,
+    "ingredient_constraints": [],
+    "status": "elevated",
+    "notes": "Second bake to replenish through afternoon."
+  },
+  {
+    "product_id": "P004",
+    "product_name": "Pulled Pork Sandwich",
+    "department": "Deli",
+    "time_window": "10:30-11:00",
+    "current_prepared_qty": 2,
+    "forecasted_demand": 8,
+    "recommended_production_qty": 6,
+    "prep_time_minutes": 45,
+    "ingredient_constraints": [
+      {
+        "ingredient_id": "INGR_PORK_SHOULDER",
+        "ingredient_name": "Pork Shoulder",
+        "needed_lbs": 3.0,
+        "available_lbs": 1.5,
+        "shortfall_lbs": 1.5
+      }
+    ],
+    "status": "blocked",
+    "notes": "Ingredient shortfall — max producible qty is 3 units"
+  },
+  {
+    "product_id": "P004",
+    "product_name": "Pulled Pork Sandwich",
+    "department": "Deli",
+    "time_window": "13:00-13:30",
+    "current_prepared_qty": 2,
+    "forecasted_demand": 6,
+    "recommended_production_qty": 3,
+    "prep_time_minutes": 45,
+    "ingredient_constraints": [
+      {
+        "ingredient_id": "INGR_PORK_SHOULDER",
+        "ingredient_name": "Pork Shoulder",
+        "needed_lbs": 1.5,
+        "available_lbs": 1.5,
+        "shortfall_lbs": 0.0
+      }
+    ],
+    "status": "blocked",
+    "notes": "Max producible is 3 units given remaining pork shoulder. Contact supplier for Thursday delivery."
+  },
+  {
+    "product_id": "P009",
+    "product_name": "Chicken Breast",
+    "department": "Meat",
+    "time_window": "10:00-10:30",
+    "current_prepared_qty": 20,
+    "forecasted_demand": 10,
+    "recommended_production_qty": 10,
+    "prep_time_minutes": 20,
+    "ingredient_constraints": [],
+    "status": "normal",
+    "notes": "Standard morning trim and pack."
+  },
+  {
+    "product_id": "P010",
+    "product_name": "Ground Beef 80/20",
+    "department": "Meat",
+    "time_window": "10:00-10:30",
+    "current_prepared_qty": 25,
+    "forecasted_demand": 12,
+    "recommended_production_qty": 15,
+    "prep_time_minutes": 30,
+    "ingredient_constraints": [],
+    "status": "normal",
+    "notes": "Standard morning grind and pack."
+  },
+  {
+    "product_id": "P014",
+    "product_name": "White Sandwich Bread",
+    "department": "Bakery",
+    "time_window": "10:00-10:30",
+    "current_prepared_qty": 30,
+    "forecasted_demand": 10,
+    "recommended_production_qty": 12,
+    "prep_time_minutes": 60,
+    "ingredient_constraints": [],
+    "status": "normal",
+    "notes": "Standard morning bake."
+  },
+  {
+    "product_id": "P014",
+    "product_name": "White Sandwich Bread",
+    "department": "Bakery",
+    "time_window": "13:00-13:30",
+    "current_prepared_qty": 30,
+    "forecasted_demand": 8,
+    "recommended_production_qty": 8,
+    "prep_time_minutes": 60,
+    "ingredient_constraints": [],
+    "status": "normal",
+    "notes": "Afternoon replenishment bake."
+  }
+]

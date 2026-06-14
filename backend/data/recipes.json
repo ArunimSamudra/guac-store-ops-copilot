@@ -1,0 +1,31 @@
+[
+  {
+    "product_id": "P001",
+    "product_name": "Rotisserie Chicken",
+    "yield_per_batch": 1,
+    "ingredients": [
+      {"ingredient_id": "INGR_WHOLE_CHICKEN", "name": "Whole Chicken", "qty_per_unit": 1, "unit": "each"},
+      {"ingredient_id": "INGR_ROTISSERIE_SEASONING", "name": "Rotisserie Seasoning", "qty_per_unit": 0.05, "unit": "lb"}
+    ]
+  },
+  {
+    "product_id": "P003",
+    "product_name": "Artisan Sourdough",
+    "yield_per_batch": 1,
+    "ingredients": [
+      {"ingredient_id": "INGR_BREAD_FLOUR", "name": "Bread Flour", "qty_per_unit": 0.75, "unit": "lb"},
+      {"ingredient_id": "INGR_SOURDOUGH_STARTER", "name": "Sourdough Starter", "qty_per_unit": 0.25, "unit": "cup"},
+      {"ingredient_id": "INGR_SEA_SALT", "name": "Sea Salt", "qty_per_unit": 0.01, "unit": "lb"}
+    ]
+  },
+  {
+    "product_id": "P004",
+    "product_name": "Pulled Pork Sandwich",
+    "yield_per_batch": 1,
+    "ingredients": [
+      {"ingredient_id": "INGR_PORK_SHOULDER", "name": "Pork Shoulder", "qty_per_unit": 0.5, "unit": "lb"},
+      {"ingredient_id": "INGR_BBQ_SAUCE", "name": "BBQ Sauce", "qty_per_unit": 0.1, "unit": "bottle"},
+      {"ingredient_id": "INGR_SANDWICH_ROLL", "name": "Sandwich Roll", "qty_per_unit": 1, "unit": "each"}
+    ]
+  }
+]

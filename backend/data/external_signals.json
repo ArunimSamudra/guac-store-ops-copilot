@@ -1,0 +1,40 @@
+{
+  "signals": [
+    {
+      "id": "SIG001",
+      "type": "weather",
+      "title": "Rain forecast this afternoon",
+      "description": "Heavy rain expected from 2pm–6pm. Historically reduces dine-in and prepared foods demand by 15–20% for dinner items. Seafood and hot bar categories most affected.",
+      "affected_products": ["P002"],
+      "severity": "medium",
+      "active": true
+    },
+    {
+      "id": "SIG002",
+      "type": "promotion",
+      "title": "Rotisserie Chicken promo ends today",
+      "description": "The 2-for-$15 rotisserie chicken promotion ends at close of business today. Sales have been elevated 35–40% above baseline for the past 3 days. Expect sharp demand drop tomorrow.",
+      "affected_products": ["P001"],
+      "severity": "high",
+      "active": true
+    },
+    {
+      "id": "SIG003",
+      "type": "local_event",
+      "title": "School half-day",
+      "description": "Lincoln Elementary and Roosevelt Middle School both have a half-day today. Students released at 11:30am. Expected spike in lunch traffic 11:30am–1:30pm. Bakery, deli, and grab-and-go categories historically see +25% lift.",
+      "affected_products": ["P003", "P004"],
+      "severity": "medium",
+      "active": true
+    },
+    {
+      "id": "SIG004",
+      "type": "supply",
+      "title": "Pork shoulder delivery shortage",
+      "description": "Today's delivery received only 4 lbs of pork shoulder against the 5.5 lbs needed for the full production run of pulled pork sandwiches. Supplier cited processing backlog. Next delivery Thursday.",
+      "affected_products": ["P004"],
+      "severity": "high",
+      "active": true
+    }
+  ]
+}

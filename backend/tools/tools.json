@@ -1,0 +1,94 @@
+[
+  {
+    "name": "get_store_priorities",
+    "description": "Returns today's store operation priorities: urgent orders (stockout risk), production blocks, waste risks, and items needing manager review.",
+    "input_schema": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    }
+  },
+  {
+    "name": "get_order_recommendation",
+    "description": "Returns the ordering recommendation for a specific product or all products. Includes recommended cases, forecasted demand, stockout risk, waste risk, confidence, and reason codes.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "product_id": {
+          "type": "string",
+          "description": "Product ID (e.g. P001). Omit to get all products."
+        }
+      },
+      "required": []
+    }
+  },
+  {
+    "name": "get_production_plan",
+    "description": "Returns production recommendations. Can filter by product and/or time window (e.g. '10:30-11:00'). Shows status: normal, sufficient, hold, blocked, elevated, reduced.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "product_id": {
+          "type": "string",
+          "description": "Product ID to filter by."
+        },
+        "time_window": {
+          "type": "string",
+          "description": "Time window in HH:MM-HH:MM format."
+        }
+      },
+      "required": []
+    }
+  },
+  {
+    "name": "get_inventory_state",
+    "description": "Returns current floor stock, backroom stock, and current_stock_estimate for a product or all products.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "product_id": {
+          "type": "string",
+          "description": "Product ID. Omit for all."
+        }
+      },
+      "required": []
+    }
+  },
+  {
+    "name": "get_external_signals",
+    "description": "Returns active external signals affecting store operations today: weather, promotions, local events, supply issues.",
+    "input_schema": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    }
+  },
+  {
+    "name": "search_products",
+    "description": "Search for products by name or department using a text query.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Text to search for in product name or department."
+        }
+      },
+      "required": ["query"]
+    }
+  },
+  {
+    "name": "get_ingredient_availability",
+    "description": "For a prepared food product, returns ingredient availability and the maximum producible quantity given current inventory and any active ingredient constraints.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "product_id": {
+          "type": "string",
+          "description": "Product ID for the prepared item (e.g. P004 for Pulled Pork Sandwich)."
+        }
+      },
+      "required": ["product_id"]
+    }
+  }
+]

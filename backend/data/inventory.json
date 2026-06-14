@@ -1,0 +1,178 @@
+[
+  {
+    "product_id": "P001",
+    "floor_stock": 3,
+    "backroom_stock": 6,
+    "current_stock_estimate": 9,
+    "last_adjustment_time": "2026-06-13T08:15:00",
+    "adjustment_reason": "Counted during morning walkthrough"
+  },
+  {
+    "product_id": "P002",
+    "floor_stock": 4,
+    "backroom_stock": 6,
+    "current_stock_estimate": 10,
+    "last_adjustment_time": "2026-06-13T07:30:00",
+    "adjustment_reason": "Opening count"
+  },
+  {
+    "product_id": "P003",
+    "floor_stock": 2,
+    "backroom_stock": 4,
+    "current_stock_estimate": 6,
+    "last_adjustment_time": "2026-06-13T08:00:00",
+    "adjustment_reason": "Morning bake complete"
+  },
+  {
+    "product_id": "P004",
+    "floor_stock": 2,
+    "backroom_stock": 0,
+    "current_stock_estimate": 2,
+    "last_adjustment_time": "2026-06-13T08:30:00",
+    "adjustment_reason": "Opening count — prep not started yet"
+  },
+  {
+    "product_id": "P005",
+    "floor_stock": 30,
+    "backroom_stock": 20,
+    "current_stock_estimate": 50,
+    "last_adjustment_time": "2026-06-13T07:00:00",
+    "adjustment_reason": "Opening count"
+  },
+  {
+    "product_id": "P006",
+    "floor_stock": 22,
+    "backroom_stock": 18,
+    "current_stock_estimate": 40,
+    "last_adjustment_time": "2026-06-13T07:00:00",
+    "adjustment_reason": "Opening count"
+  },
+  {
+    "product_id": "P007",
+    "floor_stock": 14,
+    "backroom_stock": 10,
+    "current_stock_estimate": 24,
+    "last_adjustment_time": "2026-06-13T07:00:00",
+    "adjustment_reason": "Opening count"
+  },
+  {
+    "product_id": "P008",
+    "floor_stock": 18,
+    "backroom_stock": 14,
+    "current_stock_estimate": 32,
+    "last_adjustment_time": "2026-06-13T07:00:00",
+    "adjustment_reason": "Opening count"
+  },
+  {
+    "product_id": "P009",
+    "floor_stock": 10,
+    "backroom_stock": 10,
+    "current_stock_estimate": 20,
+    "last_adjustment_time": "2026-06-13T07:00:00",
+    "adjustment_reason": "Opening count"
+  },
+  {
+    "product_id": "P010",
+    "floor_stock": 12,
+    "backroom_stock": 13,
+    "current_stock_estimate": 25,
+    "last_adjustment_time": "2026-06-13T07:00:00",
+    "adjustment_reason": "Opening count"
+  },
+  {
+    "product_id": "P011",
+    "floor_stock": 16,
+    "backroom_stock": 16,
+    "current_stock_estimate": 32,
+    "last_adjustment_time": "2026-06-13T07:00:00",
+    "adjustment_reason": "Opening count"
+  },
+  {
+    "product_id": "P012",
+    "floor_stock": 18,
+    "backroom_stock": 22,
+    "current_stock_estimate": 40,
+    "last_adjustment_time": "2026-06-13T07:00:00",
+    "adjustment_reason": "Opening count"
+  },
+  {
+    "product_id": "P013",
+    "floor_stock": 10,
+    "backroom_stock": 12,
+    "current_stock_estimate": 22,
+    "last_adjustment_time": "2026-06-13T07:00:00",
+    "adjustment_reason": "Opening count"
+  },
+  {
+    "product_id": "P014",
+    "floor_stock": 14,
+    "backroom_stock": 16,
+    "current_stock_estimate": 30,
+    "last_adjustment_time": "2026-06-13T07:00:00",
+    "adjustment_reason": "Opening count"
+  },
+  {
+    "product_id": "P015",
+    "floor_stock": 28,
+    "backroom_stock": 22,
+    "current_stock_estimate": 50,
+    "last_adjustment_time": "2026-06-13T07:00:00",
+    "adjustment_reason": "Opening count"
+  },
+  {
+    "product_id": "P016",
+    "floor_stock": 20,
+    "backroom_stock": 16,
+    "current_stock_estimate": 36,
+    "last_adjustment_time": "2026-06-13T07:00:00",
+    "adjustment_reason": "Opening count"
+  },
+  {
+    "product_id": "INGR_PORK_SHOULDER",
+    "floor_stock": 0,
+    "backroom_stock": 4,
+    "current_stock_estimate": 4,
+    "last_adjustment_time": "2026-06-13T07:00:00",
+    "adjustment_reason": "DSD delivery short — expected 20 lbs, received 4 lbs"
+  },
+  {
+    "product_id": "INGR_WHOLE_CHICKEN",
+    "floor_stock": 0,
+    "backroom_stock": 24,
+    "current_stock_estimate": 24,
+    "last_adjustment_time": "2026-06-13T07:00:00",
+    "adjustment_reason": "Opening count"
+  },
+  {
+    "product_id": "INGR_SOURDOUGH_STARTER",
+    "floor_stock": 0,
+    "backroom_stock": 8,
+    "current_stock_estimate": 8,
+    "last_adjustment_time": "2026-06-13T07:00:00",
+    "adjustment_reason": "Opening count"
+  },
+  {
+    "product_id": "INGR_BREAD_FLOUR",
+    "floor_stock": 0,
+    "backroom_stock": 25,
+    "current_stock_estimate": 25,
+    "last_adjustment_time": "2026-06-13T07:00:00",
+    "adjustment_reason": "Opening count"
+  },
+  {
+    "product_id": "INGR_BBQ_SAUCE",
+    "floor_stock": 0,
+    "backroom_stock": 6,
+    "current_stock_estimate": 6,
+    "last_adjustment_time": "2026-06-13T07:00:00",
+    "adjustment_reason": "Opening count"
+  },
+  {
+    "product_id": "INGR_SANDWICH_ROLL",
+    "floor_stock": 0,
+    "backroom_stock": 24,
+    "current_stock_estimate": 24,
+    "last_adjustment_time": "2026-06-13T07:00:00",
+    "adjustment_reason": "Opening count"
+  }
+]

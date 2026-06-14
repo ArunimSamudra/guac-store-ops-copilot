@@ -1,0 +1,178 @@
+[
+  {
+    "product_id": "P001",
+    "name": "Rotisserie Chicken",
+    "department": "Deli",
+    "unit_type": "each",
+    "case_size": 6,
+    "shelf_life_hours": 4,
+    "safety_stock": 4,
+    "display_min": 8,
+    "is_prepared": true
+  },
+  {
+    "product_id": "P002",
+    "name": "Atlantic Salmon Fillet",
+    "department": "Seafood",
+    "unit_type": "lb",
+    "case_size": 10,
+    "shelf_life_hours": 48,
+    "safety_stock": 5,
+    "display_min": 8,
+    "is_prepared": false
+  },
+  {
+    "product_id": "P003",
+    "name": "Sourdough Loaf",
+    "department": "Bakery",
+    "unit_type": "each",
+    "case_size": 12,
+    "shelf_life_hours": 36,
+    "safety_stock": 6,
+    "display_min": 10,
+    "is_prepared": true
+  },
+  {
+    "product_id": "P004",
+    "name": "Pulled Pork Sandwich",
+    "department": "Deli",
+    "unit_type": "each",
+    "case_size": 1,
+    "shelf_life_hours": 3,
+    "safety_stock": 2,
+    "display_min": 4,
+    "is_prepared": true
+  },
+  {
+    "product_id": "P005",
+    "name": "Organic Bananas",
+    "department": "Produce",
+    "unit_type": "lb",
+    "case_size": 40,
+    "shelf_life_hours": 120,
+    "safety_stock": 10,
+    "display_min": 20,
+    "is_prepared": false
+  },
+  {
+    "product_id": "P006",
+    "name": "Roma Tomatoes",
+    "department": "Produce",
+    "unit_type": "lb",
+    "case_size": 25,
+    "shelf_life_hours": 96,
+    "safety_stock": 8,
+    "display_min": 15,
+    "is_prepared": false
+  },
+  {
+    "product_id": "P007",
+    "name": "Baby Spinach",
+    "department": "Produce",
+    "unit_type": "5oz bag",
+    "case_size": 12,
+    "shelf_life_hours": 72,
+    "safety_stock": 4,
+    "display_min": 8,
+    "is_prepared": false
+  },
+  {
+    "product_id": "P008",
+    "name": "Avocado",
+    "department": "Produce",
+    "unit_type": "each",
+    "case_size": 48,
+    "shelf_life_hours": 96,
+    "safety_stock": 6,
+    "display_min": 12,
+    "is_prepared": false
+  },
+  {
+    "product_id": "P009",
+    "name": "Chicken Breast",
+    "department": "Meat",
+    "unit_type": "lb",
+    "case_size": 20,
+    "shelf_life_hours": 72,
+    "safety_stock": 5,
+    "display_min": 10,
+    "is_prepared": false
+  },
+  {
+    "product_id": "P010",
+    "name": "Ground Beef 80/20",
+    "department": "Meat",
+    "unit_type": "lb",
+    "case_size": 20,
+    "shelf_life_hours": 48,
+    "safety_stock": 5,
+    "display_min": 10,
+    "is_prepared": false
+  },
+  {
+    "product_id": "P011",
+    "name": "Whole Milk",
+    "department": "Dairy",
+    "unit_type": "gallon",
+    "case_size": 4,
+    "shelf_life_hours": 168,
+    "safety_stock": 4,
+    "display_min": 8,
+    "is_prepared": false
+  },
+  {
+    "product_id": "P012",
+    "name": "Large Eggs",
+    "department": "Dairy",
+    "unit_type": "dozen",
+    "case_size": 15,
+    "shelf_life_hours": 504,
+    "safety_stock": 6,
+    "display_min": 12,
+    "is_prepared": false
+  },
+  {
+    "product_id": "P013",
+    "name": "Sliced Cheddar",
+    "department": "Dairy",
+    "unit_type": "8oz pkg",
+    "case_size": 12,
+    "shelf_life_hours": 336,
+    "safety_stock": 4,
+    "display_min": 8,
+    "is_prepared": false
+  },
+  {
+    "product_id": "P014",
+    "name": "White Sandwich Bread",
+    "department": "Bakery",
+    "unit_type": "loaf",
+    "case_size": 12,
+    "shelf_life_hours": 120,
+    "safety_stock": 4,
+    "display_min": 8,
+    "is_prepared": true
+  },
+  {
+    "product_id": "P015",
+    "name": "Penne Pasta",
+    "department": "Center Store",
+    "unit_type": "16oz box",
+    "case_size": 12,
+    "shelf_life_hours": 17520,
+    "safety_stock": 4,
+    "display_min": 8,
+    "is_prepared": false
+  },
+  {
+    "product_id": "P016",
+    "name": "Marinara Sauce",
+    "department": "Center Store",
+    "unit_type": "24oz jar",
+    "case_size": 12,
+    "shelf_life_hours": 17520,
+    "safety_stock": 4,
+    "display_min": 8,
+    "is_prepared": false
+  }
+]

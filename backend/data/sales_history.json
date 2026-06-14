@@ -1,0 +1,174 @@
+{
+  "P001": [
+    {"date": "2026-05-29", "units_sold": 18, "notes": ""},
+    {"date": "2026-05-30", "units_sold": 16, "notes": ""},
+    {"date": "2026-05-31", "units_sold": 17, "notes": ""},
+    {"date": "2026-06-01", "units_sold": 19, "notes": ""},
+    {"date": "2026-06-02", "units_sold": 22, "notes": "Weekend lift"},
+    {"date": "2026-06-03", "units_sold": 25, "notes": "Weekend lift"},
+    {"date": "2026-06-04", "units_sold": 15, "notes": ""},
+    {"date": "2026-06-05", "units_sold": 16, "notes": ""},
+    {"date": "2026-06-06", "units_sold": 17, "notes": ""},
+    {"date": "2026-06-07", "units_sold": 14, "notes": ""},
+    {"date": "2026-06-08", "units_sold": 29, "notes": "Promo started"},
+    {"date": "2026-06-09", "units_sold": 31, "notes": "Promo day 1"},
+    {"date": "2026-06-10", "units_sold": 28, "notes": "Promo day 2 + weekend"},
+    {"date": "2026-06-11", "units_sold": 30, "notes": "Promo day 3 + weekend"}
+  ],
+  "P002": [
+    {"date": "2026-05-29", "units_sold": 9, "notes": ""},
+    {"date": "2026-05-30", "units_sold": 10, "notes": ""},
+    {"date": "2026-05-31", "units_sold": 8, "notes": ""},
+    {"date": "2026-06-01", "units_sold": 11, "notes": ""},
+    {"date": "2026-06-02", "units_sold": 14, "notes": "Weekend dinner"},
+    {"date": "2026-06-03", "units_sold": 13, "notes": "Weekend dinner"},
+    {"date": "2026-06-04", "units_sold": 9, "notes": ""},
+    {"date": "2026-06-05", "units_sold": 10, "notes": ""},
+    {"date": "2026-06-06", "units_sold": 11, "notes": ""},
+    {"date": "2026-06-07", "units_sold": 9, "notes": ""},
+    {"date": "2026-06-08", "units_sold": 8, "notes": "Light rain"},
+    {"date": "2026-06-09", "units_sold": 10, "notes": ""},
+    {"date": "2026-06-10", "units_sold": 12, "notes": "Weekend"},
+    {"date": "2026-06-11", "units_sold": 11, "notes": "Weekend"}
+  ],
+  "P003": [
+    {"date": "2026-05-29", "units_sold": 12, "notes": ""},
+    {"date": "2026-05-30", "units_sold": 13, "notes": ""},
+    {"date": "2026-05-31", "units_sold": 11, "notes": ""},
+    {"date": "2026-06-01", "units_sold": 14, "notes": ""},
+    {"date": "2026-06-02", "units_sold": 18, "notes": "Weekend"},
+    {"date": "2026-06-03", "units_sold": 20, "notes": "Weekend"},
+    {"date": "2026-06-04", "units_sold": 12, "notes": ""},
+    {"date": "2026-06-05", "units_sold": 13, "notes": ""},
+    {"date": "2026-06-06", "units_sold": 14, "notes": ""},
+    {"date": "2026-06-07", "units_sold": 12, "notes": ""},
+    {"date": "2026-06-08", "units_sold": 15, "notes": ""},
+    {"date": "2026-06-09", "units_sold": 14, "notes": ""},
+    {"date": "2026-06-10", "units_sold": 19, "notes": "Weekend"},
+    {"date": "2026-06-11", "units_sold": 17, "notes": "Weekend"}
+  ],
+  "P004": [
+    {"date": "2026-05-29", "units_sold": 8, "notes": ""},
+    {"date": "2026-05-30", "units_sold": 9, "notes": ""},
+    {"date": "2026-05-31", "units_sold": 8, "notes": ""},
+    {"date": "2026-06-01", "units_sold": 10, "notes": ""},
+    {"date": "2026-06-02", "units_sold": 13, "notes": "Weekend"},
+    {"date": "2026-06-03", "units_sold": 14, "notes": "Weekend"},
+    {"date": "2026-06-04", "units_sold": 9, "notes": ""},
+    {"date": "2026-06-05", "units_sold": 10, "notes": ""},
+    {"date": "2026-06-06", "units_sold": 9, "notes": ""},
+    {"date": "2026-06-07", "units_sold": 8, "notes": ""},
+    {"date": "2026-06-08", "units_sold": 10, "notes": ""},
+    {"date": "2026-06-09", "units_sold": 11, "notes": ""},
+    {"date": "2026-06-10", "units_sold": 12, "notes": "Weekend"},
+    {"date": "2026-06-11", "units_sold": 11, "notes": "Weekend"}
+  ],
+  "P005": [
+    {"date": "2026-05-29", "units_sold": 35},{"date": "2026-05-30", "units_sold": 32},
+    {"date": "2026-05-31", "units_sold": 34},{"date": "2026-06-01", "units_sold": 36},
+    {"date": "2026-06-02", "units_sold": 42},{"date": "2026-06-03", "units_sold": 44},
+    {"date": "2026-06-04", "units_sold": 33},{"date": "2026-06-05", "units_sold": 34},
+    {"date": "2026-06-06", "units_sold": 35},{"date": "2026-06-07", "units_sold": 33},
+    {"date": "2026-06-08", "units_sold": 34},{"date": "2026-06-09", "units_sold": 36},
+    {"date": "2026-06-10", "units_sold": 40},{"date": "2026-06-11", "units_sold": 41}
+  ],
+  "P006": [
+    {"date": "2026-05-29", "units_sold": 22},{"date": "2026-05-30", "units_sold": 21},
+    {"date": "2026-05-31", "units_sold": 23},{"date": "2026-06-01", "units_sold": 24},
+    {"date": "2026-06-02", "units_sold": 28},{"date": "2026-06-03", "units_sold": 30},
+    {"date": "2026-06-04", "units_sold": 22},{"date": "2026-06-05", "units_sold": 23},
+    {"date": "2026-06-06", "units_sold": 22},{"date": "2026-06-07", "units_sold": 21},
+    {"date": "2026-06-08", "units_sold": 23},{"date": "2026-06-09", "units_sold": 24},
+    {"date": "2026-06-10", "units_sold": 27},{"date": "2026-06-11", "units_sold": 26}
+  ],
+  "P007": [
+    {"date": "2026-05-29", "units_sold": 14},{"date": "2026-05-30", "units_sold": 15},
+    {"date": "2026-05-31", "units_sold": 13},{"date": "2026-06-01", "units_sold": 16},
+    {"date": "2026-06-02", "units_sold": 20},{"date": "2026-06-03", "units_sold": 19},
+    {"date": "2026-06-04", "units_sold": 14},{"date": "2026-06-05", "units_sold": 15},
+    {"date": "2026-06-06", "units_sold": 14},{"date": "2026-06-07", "units_sold": 13},
+    {"date": "2026-06-08", "units_sold": 15},{"date": "2026-06-09", "units_sold": 16},
+    {"date": "2026-06-10", "units_sold": 18},{"date": "2026-06-11", "units_sold": 17}
+  ],
+  "P008": [
+    {"date": "2026-05-29", "units_sold": 18},{"date": "2026-05-30", "units_sold": 17},
+    {"date": "2026-05-31", "units_sold": 19},{"date": "2026-06-01", "units_sold": 20},
+    {"date": "2026-06-02", "units_sold": 24},{"date": "2026-06-03", "units_sold": 26},
+    {"date": "2026-06-04", "units_sold": 18},{"date": "2026-06-05", "units_sold": 19},
+    {"date": "2026-06-06", "units_sold": 18},{"date": "2026-06-07", "units_sold": 17},
+    {"date": "2026-06-08", "units_sold": 19},{"date": "2026-06-09", "units_sold": 20},
+    {"date": "2026-06-10", "units_sold": 23},{"date": "2026-06-11", "units_sold": 22}
+  ],
+  "P009": [
+    {"date": "2026-05-29", "units_sold": 10},{"date": "2026-05-30", "units_sold": 11},
+    {"date": "2026-05-31", "units_sold": 10},{"date": "2026-06-01", "units_sold": 12},
+    {"date": "2026-06-02", "units_sold": 15},{"date": "2026-06-03", "units_sold": 14},
+    {"date": "2026-06-04", "units_sold": 10},{"date": "2026-06-05", "units_sold": 11},
+    {"date": "2026-06-06", "units_sold": 10},{"date": "2026-06-07", "units_sold": 9},
+    {"date": "2026-06-08", "units_sold": 11},{"date": "2026-06-09", "units_sold": 12},
+    {"date": "2026-06-10", "units_sold": 14},{"date": "2026-06-11", "units_sold": 13}
+  ],
+  "P010": [
+    {"date": "2026-05-29", "units_sold": 12},{"date": "2026-05-30", "units_sold": 13},
+    {"date": "2026-05-31", "units_sold": 12},{"date": "2026-06-01", "units_sold": 14},
+    {"date": "2026-06-02", "units_sold": 18},{"date": "2026-06-03", "units_sold": 17},
+    {"date": "2026-06-04", "units_sold": 12},{"date": "2026-06-05", "units_sold": 13},
+    {"date": "2026-06-06", "units_sold": 12},{"date": "2026-06-07", "units_sold": 11},
+    {"date": "2026-06-08", "units_sold": 13},{"date": "2026-06-09", "units_sold": 14},
+    {"date": "2026-06-10", "units_sold": 17},{"date": "2026-06-11", "units_sold": 16}
+  ],
+  "P011": [
+    {"date": "2026-05-29", "units_sold": 18},{"date": "2026-05-30", "units_sold": 19},
+    {"date": "2026-05-31", "units_sold": 17},{"date": "2026-06-01", "units_sold": 20},
+    {"date": "2026-06-02", "units_sold": 25},{"date": "2026-06-03", "units_sold": 24},
+    {"date": "2026-06-04", "units_sold": 18},{"date": "2026-06-05", "units_sold": 19},
+    {"date": "2026-06-06", "units_sold": 18},{"date": "2026-06-07", "units_sold": 17},
+    {"date": "2026-06-08", "units_sold": 19},{"date": "2026-06-09", "units_sold": 20},
+    {"date": "2026-06-10", "units_sold": 23},{"date": "2026-06-11", "units_sold": 22}
+  ],
+  "P012": [
+    {"date": "2026-05-29", "units_sold": 20},{"date": "2026-05-30", "units_sold": 21},
+    {"date": "2026-05-31", "units_sold": 19},{"date": "2026-06-01", "units_sold": 22},
+    {"date": "2026-06-02", "units_sold": 28},{"date": "2026-06-03", "units_sold": 27},
+    {"date": "2026-06-04", "units_sold": 20},{"date": "2026-06-05", "units_sold": 21},
+    {"date": "2026-06-06", "units_sold": 20},{"date": "2026-06-07", "units_sold": 19},
+    {"date": "2026-06-08", "units_sold": 21},{"date": "2026-06-09", "units_sold": 22},
+    {"date": "2026-06-10", "units_sold": 26},{"date": "2026-06-11", "units_sold": 25}
+  ],
+  "P013": [
+    {"date": "2026-05-29", "units_sold": 10},{"date": "2026-05-30", "units_sold": 11},
+    {"date": "2026-05-31", "units_sold": 10},{"date": "2026-06-01", "units_sold": 12},
+    {"date": "2026-06-02", "units_sold": 15},{"date": "2026-06-03", "units_sold": 14},
+    {"date": "2026-06-04", "units_sold": 10},{"date": "2026-06-05", "units_sold": 11},
+    {"date": "2026-06-06", "units_sold": 10},{"date": "2026-06-07", "units_sold": 9},
+    {"date": "2026-06-08", "units_sold": 11},{"date": "2026-06-09", "units_sold": 12},
+    {"date": "2026-06-10", "units_sold": 14},{"date": "2026-06-11", "units_sold": 13}
+  ],
+  "P014": [
+    {"date": "2026-05-29", "units_sold": 14},{"date": "2026-05-30", "units_sold": 15},
+    {"date": "2026-05-31", "units_sold": 13},{"date": "2026-06-01", "units_sold": 16},
+    {"date": "2026-06-02", "units_sold": 20},{"date": "2026-06-03", "units_sold": 19},
+    {"date": "2026-06-04", "units_sold": 14},{"date": "2026-06-05", "units_sold": 15},
+    {"date": "2026-06-06", "units_sold": 14},{"date": "2026-06-07", "units_sold": 13},
+    {"date": "2026-06-08", "units_sold": 15},{"date": "2026-06-09", "units_sold": 16},
+    {"date": "2026-06-10", "units_sold": 18},{"date": "2026-06-11", "units_sold": 17}
+  ],
+  "P015": [
+    {"date": "2026-05-29", "units_sold": 8},{"date": "2026-05-30", "units_sold": 9},
+    {"date": "2026-05-31", "units_sold": 8},{"date": "2026-06-01", "units_sold": 10},
+    {"date": "2026-06-02", "units_sold": 12},{"date": "2026-06-03", "units_sold": 13},
+    {"date": "2026-06-04", "units_sold": 8},{"date": "2026-06-05", "units_sold": 9},
+    {"date": "2026-06-06", "units_sold": 8},{"date": "2026-06-07", "units_sold": 7},
+    {"date": "2026-06-08", "units_sold": 9},{"date": "2026-06-09", "units_sold": 10},
+    {"date": "2026-06-10", "units_sold": 12},{"date": "2026-06-11", "units_sold": 11}
+  ],
+  "P016": [
+    {"date": "2026-05-29", "units_sold": 7},{"date": "2026-05-30", "units_sold": 8},
+    {"date": "2026-05-31", "units_sold": 7},{"date": "2026-06-01", "units_sold": 9},
+    {"date": "2026-06-02", "units_sold": 11},{"date": "2026-06-03", "units_sold": 12},
+    {"date": "2026-06-04", "units_sold": 7},{"date": "2026-06-05", "units_sold": 8},
+    {"date": "2026-06-06", "units_sold": 7},{"date": "2026-06-07", "units_sold": 6},
+    {"date": "2026-06-08", "units_sold": 8},{"date": "2026-06-09", "units_sold": 9},
+    {"date": "2026-06-10", "units_sold": 11},{"date": "2026-06-11", "units_sold": 10}
+  ]
+}
