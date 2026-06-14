@@ -1,23 +1,14 @@
 # Guac Store Ops Copilot
 
-A weekend prototype exploring what an AI-native operator interface could look like for grocery store ordering and production planning workflows, inspired by Guac's store operations product. The copilot does not replicate Guac's forecasting model — it sits on top of static mock forecast data to demonstrate an interface and interaction pattern: a conversational assistant that can synthesize signals across multiple products and domains, with every number it cites grounded in a tool call rather than the model's memory.
-
-## Demo Scenario
-
-The mock data is set at **Riverside Fresh Market (Store S042)** on a single weekday morning with an **11:00am order deadline**. Four active tensions are baked in:
-
-1. **Rotisserie chicken promo ending**: A 2-for-$15 promotion ends at close of business today. Demand has been elevated 35–40% above baseline for three days. Waste risk is high if the operator orders at the same volume as yesterday.
-2. **Salmon rain forecast**: Heavy rain is expected from 2–6pm, historically suppressing dinner and prepared foods demand by 15–20%. The order recommendation for Atlantic Salmon is down 2 cases from yesterday's.
-3. **Sourdough school half-day**: Lincoln Elementary and Roosevelt Middle School both have a half-day, releasing students at 11:30am. A +25% lunch traffic lift is expected, and sourdough backroom stock is critically low — the stockout risk is 74%.
-4. **Pulled pork ingredient constraint**: Today's pork shoulder delivery came in 1.5 lbs short. The production run is blocked; max producible quantity is 3 units against a forecast of 14.
+This is a prototype exploring what an AI-native operator interface could look like for grocery store ordering and production planning workflows, inspired by Guac's store operations product. The copilot does not replicate Guac's forecasting model — it sits on top of static mock forecast data to demonstrate an interface and interaction pattern: a conversational assistant that can synthesize signals across multiple products and domains, with every number it cites grounded in a tool call rather than the model's memory.
 
 ## What It Does
 
-The copilot reasons across all products simultaneously, not just one row at a time. When you ask what to focus on before the 11am deadline, it considers the promo-ending waste risk on rotisserie chicken alongside the low-stock stockout risk on sourdough and the blocked production run on pulled pork — and surfaces the tension between them rather than treating each item independently. That cross-item synthesis is the core value the prototype is trying to demonstrate.
+Ask the copilot what to focus on before the order deadline and it reasons across every product at once — waste risks, stockout risks, blocked production runs — and surfaces the tensions between them rather than treating each item in isolation. You can ask by department, by urgency, or open-ended ("what's going to be a problem at lunch?") and get a synthesized answer instead of a filtered table.
 
-Every number the copilot cites comes from a tool call against the mock data files, not from the model's weights. When the model says "max producible is 3 units," it got that number by calling `get_ingredient_availability` and reading the result. This grounding means the copilot's answers are consistent with what the Ordering and Production pages show, and it makes the tool-call trace auditable — the UI surfaces which tools were called and what they returned.
+Every number in a copilot response comes from a tool call, not the model's memory. When it says "max producible is 3 units" or "stockout risk is 74%," it fetched that figure from the data at query time. The tool call trace is visible inline so you can verify exactly which data the answer is based on. This also means the copilot stays consistent with what the Ordering and Production pages show — it reads the same source.
 
-Both the ordering workflow (what to order and how many cases) and the production workflow (what to produce and when) are exposed in the same interface. This matters because ingredient constraints in production directly affect what you need to order: if pulled pork production is blocked by a pork shoulder shortfall, the ordering decision for pork shoulder cannot be made independently.
+You can ask about ordering and production in the same conversation. Questions like "should I order more pork shoulder?" require knowing whether the production run is blocked and why — the copilot holds that context across the whole session rather than treating ordering and production as separate workflows.
 
 ## Screens
 
