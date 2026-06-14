@@ -5,31 +5,6 @@ import Ordering from './pages/Ordering'
 import Production from './pages/Production'
 import Copilot from './pages/Copilot'
 
-const DEADLINE_HOUR = 11
-const DEADLINE_MIN = 0
-
-function useCountdown() {
-  const [remaining, setRemaining] = useState(0)
-
-  useEffect(() => {
-    function calc() {
-      const now = new Date()
-      const deadline = new Date(now)
-      deadline.setHours(DEADLINE_HOUR, DEADLINE_MIN, 0, 0)
-      setRemaining(Math.max(0, deadline.getTime() - now.getTime()))
-    }
-    calc()
-    const id = setInterval(calc, 1000)
-    return () => clearInterval(id)
-  }, [])
-
-  const totalMin = Math.floor(remaining / 60000)
-  const hrs = Math.floor(totalMin / 60)
-  const mins = totalMin % 60
-  const secs = Math.floor((remaining % 60000) / 1000)
-  return { hrs, mins, secs, urgent: totalMin < 30 }
-}
-
 function useClock() {
   const [now, setNow] = useState(new Date())
   useEffect(() => {
@@ -40,7 +15,6 @@ function useClock() {
 }
 
 export default function App() {
-  const countdown = useCountdown()
   const clock = useClock()
 
   const navClass = ({ isActive }: { isActive: boolean }) =>

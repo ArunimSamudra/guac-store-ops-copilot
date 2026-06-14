@@ -86,7 +86,7 @@ export default function ProductDetailPanel({ productId, onClose }: { productId: 
                 <BarChart data={data.sales_last_7_days} margin={{ top: 0, right: 0, left: -20, bottom: 0 }}>
                   <XAxis dataKey="date" tick={{ fontSize: 10 }} tickFormatter={d => d.slice(5)} />
                   <YAxis tick={{ fontSize: 10 }} />
-                  <Tooltip formatter={(v: number) => [v, 'Units sold']} labelFormatter={l => l} />
+                  <Tooltip formatter={(v) => [v, 'Units sold']} labelFormatter={l => l} />
                   <Bar dataKey="units_sold" radius={[3, 3, 0, 0]}>
                     {data.sales_last_7_days.map((_, i) => (
                       <Cell key={i} fill={i === data.sales_last_7_days.length - 1 ? '#16a34a' : '#86efac'} />
